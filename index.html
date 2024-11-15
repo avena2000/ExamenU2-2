@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/705d8d055f.js"></script>
+    <link href="style.css" rel="stylesheet">
+    <script src="responsiveslides.js"></script>
+    <link
+            href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+            rel="stylesheet"
+    />
+    <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+            rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <link href="carrousel.css" rel="stylesheet">
+    <title>Examen 2</title>
+</head>
+<body>
+<div class="modal-back" id="modal" style="display: none">
+    <div class="info-modal">
+        <a href="#" id="closeModal" class="close-btn">✖</a>
+        <img src="imagenes/logo.jpg" alt="logo">
+        <img src="imagenes/fotomodal.jpg" alt="modal logo">
+        <p>Somos la empresa Financiera que necesitas, ven y acércate a nosotros para que tu empresa pueda crezca.</p>
+    </div>
+
+</div>
+<i id="subir" class="up fa-solid fa-chevron-up animate__animated animate__fadeInUp"></i>
+<header>
+    <div>
+        <figure>
+            <img alt="logo" src="imagenes/logo.jpg">
+        </figure>
+        <i class=" fa-solid fa-bars" id="barras"></i>
+    </div>
+    <nav class="show-menu" id="menu" style="display: none">
+        <ul>
+            <li><a class="boton" href="#about">ABOUT US</a></li>
+            <li><a class="boton" href="#services">OUR SERVICES</a></li>
+            <li><a class="boton" href="#projects">PROJECTS</a></li>
+            <li><a class="boton" href="#team">TEAM</a></li>
+            <li><a class="boton" href="#last-news">LAST NEWS</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="slides">
+    <ul class="rslides">
+        <li><img alt="1" src="imagenes/slide1.jpg"></li>
+        <li><img alt="2" src="imagenes/slide2.jpg"></li>
+        <li><img alt="3" src="imagenes/slide3.jpg"></li>
+    </ul>
+    <div class="texto">
+        <h1 class="animate__animated animate__pulse">Expert Financial Advice</h1>
+        <p class="animate__animated animate__backInRight">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias assumenda cum iusto magni quasi, ratione?</p>
+        <a class="vermas" href="#" id="ver-mas">Learn More</a>
+    </div>
+</section>
+
+<section id="about<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, voluptate?</p>" class="about">
+    <div class="titulo">
+        <h1>ABOUT US</h1>
+    </div>
+
+    <div class="contenido" style="padding: 0 15px">
+        <article class="wow animate__animated animate__backInLeft">
+            <i class="fa-solid fa-laptop"></i>
+            <h2>MARKETING SERVICES</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus alias cum, eaque earum fuga ratione similique temporibus voluptas! Nam?</p>
+        </article>
+        <article class="wow animate__animated animate__backInRight">
+            <i class="fa-solid fa-chart-line"></i>
+            <h2>MARKETING RESEARCH</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus alias cum, eaque earum fuga ratione similique temporibus voluptas! Nam?</p>
+        </article>
+        <article class="wow animate__animated animate__backInLeft">
+            <i class="fa-solid fa-address-card"></i>
+            <h2>BUSINESS PLANS</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus alias cum, eaque earum fuga ratione similique temporibus voluptas! Nam?</p>
+        </article>
+        <article class="wow animate__animated animate__backInRight">
+            <i class="fa-solid fa-dollar-sign"></i>
+            <h2>ADVERTISING</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus alias cum, eaque earum fuga ratione similique temporibus voluptas! Nam?</p>
+        </article>
+    </div>
+</section>
+
+<section id="projects" class="team">
+    <div class="titulo">
+        <h1>PROJECTS</h1>
+    </div>
+    <div class="imagenes" >
+        <a href="imagenes/galeriafoto1.jpg" data-fancybox="gallery" class="div1 wow animate__animated animate__headShake">
+            <figure>
+                <img src="imagenes/galeriafoto1.jpg" alt="img1">
+            </figure>
+        </a>
+        <a href="imagenes/galeriafoto2.jpg" data-fancybox="gallery" class="div3 wow animate__animated animate__headShake">
+            <figure>
+                <img src="imagenes/galeriafoto2.jpg" alt="img2">
+            </figure>
+        </a>
+        <a href="imagenes/galeriafoto3.jpg" data-fancybox="gallery" class="div2 wow animate__animated animate__headShake">
+            <figure>
+                <img src="imagenes/galeriafoto3.jpg" alt="img3">
+            </figure>
+        </a>
+    </div>
+</section>
+
+<section id="team" class="noticias">
+    <div class="titulo">
+        <h1>TEAM</h1>
+    </div>
+    <div class="acordeon-container">
+        <div class="acordeon">
+            <div class="contenedor-pregunta">
+                <div class="pregunta">
+                    <h3>Jhon Tyler</h3>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="respuesta" style="display: none">
+                    <figure>
+                        <img src="imagenes/foto_team1.jpg" alt="team 1">
+                    </figure>
+                    <h2>Director of Client Strategy</h2>
+                    <div class="redes">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-pinterest-p"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor-pregunta">
+                <div class="pregunta">
+                    <h3>Stuart Williams</h3>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="respuesta" style="display: none">
+                    <figure>
+                        <img src="imagenes/foto_team2.jpg" alt="team 2">
+                    </figure>
+                    <h2>Director of Client Strategy</h2>
+                    <div class="redes">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-pinterest-p"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor-pregunta">
+                <div class="pregunta">
+                    <h3>Jane McMillan</h3>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="respuesta" style="display: none">
+                    <figure>
+                        <img src="imagenes/foto_team3.jpg" alt="team 3">
+                    </figure>
+                    <h2>Director of Client Strategy</h2>
+                    <div class="redes">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-pinterest-p"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="contenedor-pregunta">
+                <div class="pregunta">
+                    <h3>Samanta Lopez</h3>
+                    <i class="fa-solid fa-plus"></i>
+                </div>
+                <div class="respuesta" style="display: none">
+                    <figure>
+                        <img src="imagenes/foto_team4.jpg" alt="team 4">
+                    </figure>
+                    <h2>Director of Client Strategy</h2>
+                    <div class="redes">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-pinterest-p"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="services" class="our-services">
+    <div class="titulo">
+        <h1>Our Services</h1>
+    </div>
+
+    <div class="contenido" style="padding: 0 15px">
+        <article class="wow animate__animated animate__backInLeft">
+            <figure>
+                <img src="imagenes/fotoservicio1.jpg" alt="servicio 1">
+            </figure>
+            <h2>FIRST BLOG POST</h2>
+            <h3>AUG 19, 2015</h3>
+            <div class="divisor"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet asperiores deserunt dolorem eius ipsam libero mollitia nesciunt obcaecati odit perspiciatis possimus quae quaerat quos rem, rerum soluta? Aspernatur delectus natus optio praesentium provident rerum sunt? Consequatur ipsam nihil nisi.</p>
+        </article>
+        <article class="wow animate__animated animate__backInRight">
+            <figure>
+                <img src="imagenes/fotoservicio2.jpg" alt="servicio 2">
+            </figure>
+            <h2>SECOND BLOG POST</h2>
+            <h3>AUG 16, 2015</h3>
+            <div class="divisor"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium atque expedita fugit porro. Atque eligendi explicabo harum illo in labore quidem quos! At autem debitis delectus enim ex laudantium molestias mollitia natus numquam officia perspiciatis quis sit soluta vel, voluptatum!</p>
+        </article>
+
+    </div>
+</section>
+
+<section id="last-news" class="last-news">
+    <div class="titulo">
+        <h1>LAST NEWS</h1>
+    </div>
+    <div class="slide-buttons">
+        <a href="#last-news" id="back-button"><i class="fa-solid fa-arrow-left"></i></a>
+        <a href="#last-news" id="forward-button"><i class="fa-solid fa-arrow-right"></i></a>
+    </div>
+    <div id="carousel">
+        <div id="slide-container">
+            <div class="slide">
+                <figure>
+                    <img src="imagenes/foto_news1.jpg" alt="news 1">
+                </figure>
+                <h2>Learning to Reach New Audiences Using Social Media Marketing Tools</h2>
+                <h3>October 29, 2019 \ 6 Comments</h3>
+            </div>
+            <div class="slide">
+                <figure>
+                    <img src="imagenes/foto_news2.jpg" alt="news 2">
+                </figure>
+                <h2>Learning to Reach New Audiences Using Social Media Marketing Tools</h2>
+                <h3>October 29, 2019 \ 6 Comments</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div>
+        <img src="imagenes/logo.jpg" alt="logo">
+        <p>© 2017 All Rights Reserved | Privacy Policy</p>
+        <div class="redes">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-pinterest-p"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+    </div>
+</footer>
+
+<script src="carrousel.js"></script>
+<script>
+    new WOW().init();
+
+    $('#closeModal').click(function () {
+        $('#modal').fadeOut();
+    });
+    $('#ver-mas').click(function () {
+        $('#modal').fadeIn();
+    });
+    $("#barras").click(function () {
+        $("#menu").slideToggle()
+    })
+    $(".boton").click(function () {
+        $("#menu").slideToggle()
+    })
+    $(".rslides").responsiveSlides({
+        auto: true,
+        pager: false,
+        nav: true,
+        speed: 500,
+        namespace: "callbacks",
+    });
+    $(document).ready(function () {
+        $("#subir").click(function () {
+            $("body, html").animate(
+                {
+                    scrollTop: "0px",
+                },
+                1000
+            );
+        });
+    });
+    $(".pregunta").click(function () {
+        const $icon = $(this).children("i");
+        const $respuesta = $(this).next(".respuesta");
+        $respuesta.slideToggle();
+        $icon.toggleClass("rotate");
+
+    })
+    Fancybox.bind("[data-fancybox]", {});
+</script>
+</body>
+</html>
