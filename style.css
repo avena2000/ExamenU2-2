@@ -98,6 +98,7 @@ header div {
     align-items: center;
 }
 header i {
+    cursor: pointer;
     font-size: 24px;
     color: white;
 }
@@ -408,7 +409,7 @@ footer img {
     text-decoration: none;
     height: 61px;
     width: 38px;
-    background: transparent url("/imagenes/flechas.png") no-repeat left top;
+    background: transparent url("../imagenes/flechas.png") no-repeat left top;
     margin-top: -45px;
 }
 
